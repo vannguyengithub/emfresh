@@ -1,0 +1,301 @@
+.emfresh-login {
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.emfresh-login .ty-mainbox-title {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+/* .emfresh-login .ty-sidebox__body {
+    padding: 24px;
+} */
+.emfresh-login .ty-login {
+  margin: 64px 0;
+  padding: 64px;
+  width: 528px;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  -webkit-box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.emfresh-login .ty-login .login__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 32px;
+}
+
+.emfresh-login .ty-login .login__social .ty-btn {
+  padding: 8px 16px;
+  border: 1px solid #E7E7E7;
+  border-radius: 999px;
+  background: unset;
+  width: calc(50%);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.emfresh-login .ty-login .login__social .ty-btn button {
+  border: none;
+  background: unset;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.emfresh-login .login__divider {
+  text-align: center;
+  position: relative;
+  margin: 16px 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #E0E0E0;
+}
+
+.emfresh-login .login__divider::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  background: #F5F5F5;
+  height: 1px;
+  right: 0;
+  width: calc(50% - 40px);
+}
+
+.emfresh-login .login__divider::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  background: #F5F5F5;
+  height: 1px;
+  left: 0;
+  width: calc(50% - 40px);
+}
+
+.emfresh-login .ty-control-group {
+  margin: 0 0 16px 0;
+}
+
+.emfresh-login .ty-control-group.ty-control-0 {
+  margin: 0;
+  position: relative;
+}
+
+.emfresh-login .ty-control-group .ty-login__filed-label {
+  display: block;
+  padding: unset;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #424242;
+}
+
+.emfresh-login .ty-control-group .ty-login__input {
+  border-radius: 999px;
+  text-align: unset;
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #BDBDBD;
+  border-radius: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9E9E9E;
+}
+
+.emfresh-login .ty-control-group .ty-login__input.error {
+  border: 1px solid #FE6E6E;
+}
+
+.emfresh-login .ty-control-group .ty-login__input:focus {
+  outline: unset;
+}
+
+.emfresh-login .ty-control-group .ty-login__input[type="password"] {
+  background: unset;
+  height: unset;
+  width: 100%;
+}
+
+.emfresh-login .ty-control-group .ty__action {
+  border: none;
+  background: unset;
+  position: absolute;
+  right: 16px;
+  top: 36px;
+  display: none;
+  color: #505050;
+}
+
+.emfresh-login .ty-login__remember-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: unset;
+  margin: 8px 0 24px 0;
+}
+
+.emfresh-login .ty-login__remember-me .ty-login__remember-me-label {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.emfresh-login .ty-login__remember-me .ty-login__remember-me-label input {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #505050;
+  position: relative;
+}
+
+.emfresh-login .ty-login__remember-me .ty-login__remember-me-label input[type="checkbox"]:checked::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.emfresh-login .ty-login__remember-me .ty-login__remember-me-label input[type="checkbox"]:checked::before {
+  content: "";
+  left: 6px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.emfresh-login .ty-login__remember-me .ty-password-forgot a {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F44336;
+}
+
+.emfresh-login .ty-btn__login {
+  padding: 12px 24px;
+  width: 100%;
+  background: #EEEEEE;
+  border-radius: 999px;
+  border: none;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #9E9E9E;
+}
+
+.emfresh-login .ty-btn__login.active {
+  background: #1D6D3D;
+  color: #FFFFFF;
+}
+
+.emfresh-login .ty__sign-up {
+  width: 100%;
+  border: 1px solid #E7E7E7;
+  border-radius: 999px;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #000000;
+}
+
+.emfresh-login .ty__sign-up a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1B1B1B;
+}
+
+.emfresh-login .ty__sign-up a i {
+  margin-left: 8px;
+}
+
+.emfresh-login .ty-newsletters {
+  text-align: center;
+  margin-bottom: unset;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #9E9E9E;
+}
+
+.emfresh-login .ty-newsletters a {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .emfresh-login {
+    background-color: unset;
+  }
+  .emfresh-login .ty-login {
+    margin: 0;
+    padding: 32px 16px;
+    width: auto;
+    border: unset;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+}
+/*# sourceMappingURL=login.css.map */

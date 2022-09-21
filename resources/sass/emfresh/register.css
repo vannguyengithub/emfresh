@@ -1,0 +1,754 @@
+.emfresh-register {
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.emfresh-register .ty-register {
+  margin: 64px 0;
+}
+
+.ty__register__wrapper {
+  width: 100%;
+}
+
+.ty__register__wrapper .ty-account {
+  padding: 64px;
+  width: 528px;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  -webkit-box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.ty__register__wrapper .ty-account form {
+  width: 400%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.ty__register__wrapper .ty-account .cm-processed-form {
+  height: 100%;
+}
+
+.ty__register__wrapper .ty-account .ty__form {
+  width: 25%;
+}
+
+.ty__register__wrapper .ty-account .ty__form .ty__group__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+}
+
+.ty__register__wrapper .ty-account .ty-account__form {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty-control-group__title {
+  margin-bottom: 8px;
+  padding: unset;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #424242;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty-login__input {
+  width: 100%;
+  height: unset;
+  background: unset;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group.ty-control-0 {
+  margin: 0 0 16px 0 !important;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__group-gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 8px;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__group-gender
+.ty__group-check {
+  position: relative;
+  width: calc(100% / 3);
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__group-gender
+.ty__group-check
+input[type="radio"] {
+  margin: 0px 4px 0 0;
+  cursor: pointer;
+  display: none;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__group-gender
+.ty__group-check
+input[type="radio"]:checked
++ label {
+  border: 1px solid #ffe279;
+  color: #1D6D3D;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__group-gender
+.ty__group-check
+label {
+  margin-right: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #1b1b1b;
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 10px 8px 12px;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__date__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 8px;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__date__inner
+.ty__date__item {
+  position: relative;
+  width: calc(100% / 3);
+  height: 36px;
+  border: 1px solid #b6b6b6;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.ty__register__wrapper
+.ty-account
+.ty-account__form
+.ty-control-group
+.ty__date__inner
+.ty__date__item
+select {
+  outline: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #505050;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  width: 100%;
+  height: 100%;
+  background: unset;
+  border: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19 6.75012L4.75 6.75012L5.40706 7.75012L11.875 17.7501L18.3429 7.75012L19 6.75012Z' fill='%23868686'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat, repeat;
+  background-position: right 2px top 50%, 0 0;
+  background-size: 24px auto, 100%;
+}
+
+.ty__register__wrapper .ty__progress {
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.ty__register__wrapper .ty__progress .ty__step,
+.ty__register__wrapper .ty__progress .__ty__step {
+  width: calc(33.333333333333%);
+  position: relative;
+  z-index: 0;
+}
+
+.ty__register__wrapper
+.ty__progress
+.ty__step.active
+.ty__bullet
+.ty__step__number,
+.ty__register__wrapper
+.ty__progress
+.__ty__step.active
+.ty__bullet
+.ty__step__number {
+  background: #1D6D3D;
+  border-color: #1D6D3D;
+  position: relative;
+}
+
+.ty__register__wrapper
+.ty__progress
+.ty__step.active
+.ty__bullet
+.ty__step__number.done::before,
+.ty__register__wrapper
+.ty__progress
+.__ty__step.active
+.ty__bullet
+.ty__step__number.done::before {
+  content: none;
+}
+
+.ty__register__wrapper .ty__progress .ty__step.active .ty__bullet p,
+.ty__register__wrapper .ty__progress .__ty__step.active .ty__bullet p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #616161;
+}
+
+.ty__register__wrapper .ty__progress .ty__step.active::after,
+.ty__register__wrapper .ty__progress .__ty__step.active::after {
+  border: 2px dashed #1D6D3D !important;
+}
+
+.ty__register__wrapper .ty__progress .ty__step:not(:last-child)::after,
+.ty__register__wrapper .ty__progress .__ty__step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 18px;
+  border: 2px dashed #616161;
+  width: 120px;
+  right: -60px;
+  z-index: -1;
+}
+
+.ty__register__wrapper .ty__progress .ty__step .ty__bullet .ty__step__number,
+.ty__register__wrapper .ty__progress .__ty__step .ty__bullet .ty__step__number {
+  width: 36px;
+  height: 36px;
+  background: #f3f3f3;
+  border: 1px solid #505050;
+  border-radius: 999px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ty__register__wrapper
+.ty__progress
+.ty__step
+.ty__bullet
+.ty__step__number
+span,
+.ty__register__wrapper
+.ty__progress
+.__ty__step
+.ty__bullet
+.ty__step__number
+span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+}
+
+.ty__register__wrapper
+.ty__progress
+.ty__step.active
+.ty__bullet
+.ty__step__number
+span,
+.ty__register__wrapper
+.ty__progress
+.__ty__step.active
+.ty__bullet
+.ty__step__number
+span {
+  color: #fff;
+}
+
+.ty__register__wrapper .ty__progress .ty__step .ty__bullet p,
+.ty__register__wrapper .ty__progress .__ty__step .ty__bullet p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #616161;
+}
+
+.ty__register__wrapper .ty__sent__otp {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #505050;
+  margin-bottom: 16px;
+}
+
+.ty__register__wrapper .ty__sent__otp p {
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+}
+
+.ty__register__wrapper .ty__sent__otp .opt-phone-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.ty__register__wrapper .ty-control-group__label {
+  float: unset;
+  padding: 0;
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.ty__register__wrapper .ty-control-group-otp {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp.error {
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp.error::-webkit-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #E0E0E0;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp.error:-ms-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #E0E0E0;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp.error::-ms-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #E0E0E0;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp.error::placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #E0E0E0;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp {
+  width: 36px;
+  border: none;
+  background: unset;
+  border-bottom: 2px solid #424242;
+  border-radius: unset;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.012em;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp::-webkit-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #424242;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.012em;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp:-ms-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #424242;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.012em;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp::-ms-input-placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #424242;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.012em;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp::placeholder {
+  font-family: "Lexend", sans-serif;
+  color: #424242;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.012em;
+}
+
+.ty__register__wrapper .ty-control-group-otp .otp:focus-visible {
+  outline: none;
+}
+
+.ty__register__wrapper .resend__otp {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ty__register__wrapper .resend__otp a span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.ty__register__wrapper .resend__otp span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.ty__register__wrapper .resend__otp button {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-right: 8px;
+}
+
+.ty__register__wrapper .resend__otp button span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #b6b6b6;
+}
+
+.ty__register__wrapper .main__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 68px;
+}
+
+.ty__register__wrapper .main__action .change-phone-btn {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #D32F2F;
+}
+
+.ty__register__wrapper .main__action button {
+  background: unset;
+}
+
+.ty__register__wrapper .main__action .main__action-next {
+  background: #1D6D3D;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 24px;
+  border: unset;
+  border-radius: 999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ty__register__wrapper .main__action .main__action-next i {
+  color: white;
+}
+
+.ty__register__wrapper .main__action .main__action-next:disabled {
+  background: #e7e7e7;
+}
+
+.ty__register__wrapper .main__action .main__action-next:disabled span {
+  color: #9E9E9E;
+}
+
+.ty__register__wrapper .main__action .main__action-next:disabled i {
+  color: #9E9E9E;
+}
+
+.ty__register__wrapper .main__action .ty-btn__outline-success {
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 1px solid #1D6D3D;
+  color: #1D6D3D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ty__register__wrapper .main__action .ty-btn__outline-success span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ty__register__wrapper .main__action .main__action-next.active span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+.ty__register__wrapper .ty-login__input[type="password"]::-webkit-input-placeholder {
+  position: relative;
+  top: 4px;
+}
+
+.ty__register__wrapper .ty-login__input[type="password"]:-ms-input-placeholder {
+  position: relative;
+  top: 4px;
+}
+
+.ty__register__wrapper .ty-login__input[type="password"]::-ms-input-placeholder {
+  position: relative;
+  top: 4px;
+}
+
+.ty__register__wrapper .ty-login__input[type="password"]::placeholder {
+  position: relative;
+  top: 4px;
+}
+
+.sigup__with-phone .ty-control-group {
+  margin-bottom: 24px;
+}
+
+.sigup__with-phone .ty-btn__login {
+  margin-bottom: unset;
+}
+
+.sigup__with-phone .login__divider {
+  margin: 8px 0;
+}
+
+.sigup__with-phone .login__social {
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 8px;
+}
+
+.sigup__with-phone .login__social .ty-buttons-container__add-or-close {
+  width: calc(50%);
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  background: unset;
+}
+
+.sigup__with-phone .login__social .ty-buttons-container__add-or-close button {
+  border: none;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #1b1b1b;
+}
+
+.sigup__with-phone
+.login__social
+.ty-buttons-container__add-or-close
+button
+svg {
+  margin-right: 8px;
+}
+
+.sigup__with-phone
+.login__social
+.ty-buttons-container__add-or-close
+.social__icon {
+  margin-right: 8px;
+  background: linear-gradient(135deg, #2aa4f4 14.98%, #007ad9 91.54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.sigup__with-phone .ty__sign-up {
+  width: unset;
+}
+
+/**/
+.emfresh-register .input-group-addon {
+  position: absolute;
+  right: 0;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+}
+
+.emfresh-register .input-group-addon i {
+  color: #757575;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .emfresh-register {
+    background-color: transparent;
+  }
+  .emfresh-register .ty-register {
+    margin: 32px 16px;
+  }
+  .ty__register__wrapper .ty-account {
+    width: auto;
+    padding: 0;
+    background: transparent;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+    border: unset;
+  }
+}
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,126 @@
+header.header {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 23px 0;
+}
+
+.dropdown-cart {
+  min-width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.dropdown-cart .dropdown-item:hover, .dropdown-cart .dropdown-item:focus {
+  background-color: unset;
+}
+
+.dropdown-cart .dropdown-item {
+  padding: 8px 16px;
+}
+
+/**/
+.dropdown-cart-item {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 24px 16px;
+}
+
+.dropdown-cart-item .packege-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.dropdown-cart-item .packege-order img {
+  padding-right: 40px;
+}
+
+.dropdown-cart-item .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dropdown-cart-item .variant {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+}
+
+.dropdown-cart-item .variant:not(:first-child) {
+  padding-top: 16px;
+}
+
+.dropdown-cart-item .variant .detail {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #616161;
+}
+
+.dropdown-cart-item .amount {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.25px;
+  color: #424242;
+}
+
+.dropdown-cart-item .price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1D6D3D;
+}
+
+.dropdown-cart-item .emfresh-card-header .title {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-continue-checkout {
+  padding: 12px 64px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background: #1D6D3D;
+  color: #FFFFFF;
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  header.header {
+    padding: 16px;
+  }
+  .header-mb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .back {
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=header.css.map */

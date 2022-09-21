@@ -1,0 +1,71 @@
+@charset 'utf-8';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// @import "node_modules/font-awesome/scss/font-awesome.scss";
+@import './emfresh/fontawesome/scss/fontawesome.scss';
+@import "./emfresh/fontawesome/scss/solid.scss";
+@import './emfresh/em_fresh_class';
+@import './emfresh/em_fresh_color';
+@import './emfresh/style';
+@import './emfresh/footer';
+@import './emfresh/header';
+@import './emfresh/home';
+@import './emfresh/login';
+@import './emfresh/profile';
+@import './emfresh/register';
+@import './emfresh/about_emfresh';
+@import './emfresh/faqs';
+
+@import './emfresh/order';
+
+@import './emfresh/menu_page';
+@import './emfresh/menusidebar';
+
+// Swiper
+@import 'node_modules/swiper/swiper';
+@import 'node_modules/swiper/modules/pagination/pagination';
+@import 'node_modules/swiper/modules/navigation/navigation';
+
+
+//notify 
+@import './bootstrap-notify/bootstrap-notify.css';
+@import './bootstrap-notify/styles/alert-bangtidy.css';
+@import './bootstrap-notify/styles/alert-blackgloss.css';
+
+// // Abstracts
+// @import 'abstracts/variables';
+// // Base
+// @import 'base/reset';
+// @import 'base/base';
+// @import 'base/helpers';
+// @import 'base/typography';
+// @import 'base/utility';
+// // Components
+// @import 'components/breadcrumbs';
+// @import 'components/buttons';
+// @import 'components/section-description';
+// @import 'components/sidebar';
+// @import 'components/might-like';
+// @import 'components/form';
+// @import 'components/alerts';
+// @import 'components/pagination';
+// @import 'components/search';
+// @import 'components/tables';
+// @import 'components/badge';
+// // Layout
+// @import 'layout/header';
+// @import 'layout/footer';
+// // Pages
+// @import 'pages/landing-page';
+// @import 'pages/shop';
+// @import 'pages/product';
+// @import 'pages/cart';
+// @import 'pages/checkout';
+// @import 'pages/thankyou';
+// @import 'pages/search-results';
+// @import 'pages/search-results-algolia';
+// @import 'pages/auth';
+// @import 'pages/my-profile';
+.invalid-feedback {
+    display: block;
+}

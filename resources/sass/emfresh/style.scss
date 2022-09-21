@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    background: #fff;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-family: 'Lexend', sans-serif;
+}
+
+ol,
+ul {
+list-style: none;
+padding-left: 0;
+}
+
+main {
+display: block;
+}
+
+header {
+position: relative;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 999;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+.btn.focus, .btn:focus{
+    box-shadow: unset
+}
+a:hover{
+    text-decoration: none;
+}
+.max-w-1120{
+    max-width: 1120px;
+}
+
+/**/
+/**/
+.header-right-login{
+    display: flex;
+    align-items: center;
+    .dropdown{
+        display: flex;
+    }
+}
+.header-right-login .dropdown-toggle::after{
+    display: none;
+}
+.header-right-login .btn-outline-black{
+    padding: 4px 8px 4px 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 48px;
+}
+.icon-user{
+    margin-left: 12px;
+    background: #757575;
+    padding: 4px 6px;
+    border-radius: 999px;
+    width: 30px;
+    height: 30px;
+}
+.icon-user i{
+    color: white;
+}
+.header-right-login .notification {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    background: #F44336;
+    border: 1px solid #FFFFFF;
+    border-radius: 999px;
+}
+/*login*/
+.user {
+    padding: 30px 20px;
+}
+.user > div{
+    width: max-content;
+    gap: 16px;
+}
+.btn-login {
+    min-width: 130px;
+    text-align: center;
+}
+.ty-btn {
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+.ty-btn__success{
+    background: #1D6D3D;
+    color: #FFFFFF;
+
+}
+.ty-btn__outline-success{
+    border: 1px solid #1D6D3D;
+    color: #1D6D3D;
+}
+.btn-primary-700{
+    
+}
+/*has login*/
+.user-info{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E7E7E7;
+    .user-info-detail{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1B1B1B;
+    }
+}
+.user-avt{
+    border: 1px solid #E0E0E0;
+}
+.ty-account-info {
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+.ty-account-info__item {
+    padding-bottom: 24px;
+}
+.ty-account-info__item a{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #000000;
+}
+.ty-account-info__item:last-child {
+    padding-bottom: 0;
+}
+/*navbar*/
+.emfresh_navbar .nav-link{
+    padding: 12px;
+    position: relative;
+}
+.emfresh_navbar .nav-item{
+    padding-right: 16px;
+}
+.emfresh_navbar.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #616161;
+
+}
+.emfresh_navbar.navbar-light .navbar-nav .active>.nav-link{
+    color: #1D6D3D;
+}
+.emfresh_navbar.navbar-light .navbar-nav .active>.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 12px;
+    bottom: 0px;
+    background: #1D6D3D;
+}
+.hidden{
+    display: none !important;
+}
+
+  /**/
+.scroll-bar-wrap-inner {
+width: 100%;
+position: relative;
+}
+.scroll-box-modal {
+width: 100%;
+height: 600px;
+overflow-y: auto;
+}
+.scroll-box-modal.scroll-box-height {
+height: 380px;
+}
+.scroll-box-modal::-webkit-scrollbar {
+width: 4px;
+}
+.scroll-box-modal::-webkit-scrollbar,
+.scroll-box-modal::-webkit-scrollbar-thumb {
+overflow: visible;
+border-radius: 4px;
+}
+.scroll-box-modal::-webkit-scrollbar-thumb {
+background: #b3b3b3;
+border-radius: 999px;
+}
+.cover-bar_modal {
+position: absolute;
+background: #fff;
+height: 100%;
+top: 0;
+right: 0;
+width: 0;
+opacity: 1;
+z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .user-info{
+        border-bottom: unset;
+        .user-info-detail{
+            padding-left: 8px;
+        }
+    }
+    .menusidebar{
+        .ty-account-info{
+            padding: 0 16px;
+            margin: 16px 0;
+        }
+    }
+    .btn-login{
+        flex: 1;
+        padding: 8px 20px;
+        a{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.25px;
+        }
+    }
+}

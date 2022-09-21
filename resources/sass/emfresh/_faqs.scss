@@ -1,0 +1,123 @@
+.page-faqs {
+    padding: 80px 0;
+    &__title {
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 70px;
+            text-align: center;
+            letter-spacing: -0.5px;
+            color: #000000;
+        }
+    }
+    &__search {
+        width: 700px;
+        height: 48px;
+        background: #F5F5F5;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0 16px;
+        input {
+            border: unset;
+            width: calc(100% - 28px);
+            background: unset;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #9E9E9E;
+            outline: none;
+        }
+    }
+    &__body {
+        margin-top: 80px;
+    }
+}
+
+.faqs-box {
+    padding-top: 6px;
+    &__title {
+        margin-bottom: 24px;
+        h3 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.5px;
+            color: #1D6D3D;
+            margin: unset;
+        }
+    }
+    .card-header {
+        background: unset;
+        padding: unset;
+        border: unset;
+    }
+    .card {
+        border: unset;
+        margin-bottom: 24px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        padding-bottom: 16px;
+        border-radius: unset;
+    }
+    .card-body {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+        color: #424242;
+        margin-top: 10px;
+        padding: unset;
+    }
+}
+
+.faqs-btn__custome {
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.79289 9.29289C7.18342 8.90237 7.81658 8.90237 8.20711 9.29289L12.5 13.5858L16.7929 9.29289C17.1834 8.90237 17.8166 8.90237 18.2071 9.29289C18.5976 9.68342 18.5976 10.3166 18.2071 10.7071L13.9142 15C13.1332 15.7811 11.8668 15.781 11.0858 15L6.79289 10.7071C6.40237 10.3166 6.40237 9.68342 6.79289 9.29289Z' fill='%23757575'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat, repeat;
+    background-position: right 0 top 50%, 0 0;
+    background-size: 24px auto, 100%;
+    width: 100%;
+    text-align: unset;
+    padding: unset;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    span {
+        width: calc(100% - 24px);
+    }
+    &:focus {
+        text-decoration: none;
+    }
+    &:hover {}
+}
+
+@media (max-width: 600px) {
+    .page-faqs {
+        padding: 24px 16px;
+        &__search {
+            width: 100%;
+        }
+        &__title h1 {
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+    .faqs-box {
+        .card {
+            margin-bottom: 16px;
+        }
+        &__title {
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+    .faqs-btn__custome {
+        font-size: 14px;
+    }
+}
